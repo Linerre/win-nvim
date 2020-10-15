@@ -31,6 +31,8 @@ nnoremap <A-k> <C-w>k
 " SHIFT-jk to move btw buffers
 nnoremap <S-j> :bnext<CR>
 nnoremap <S-k> :bprevious<CR>
+" show the current buffer 
+nnoremap <A-w> :args<CR>
 
 " open files in split view
 nnoremap <Leader>ss :split 
