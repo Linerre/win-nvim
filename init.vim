@@ -12,6 +12,7 @@ Plug 'morhetz/gruvbox', {'as': 'gruvbox'}
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
