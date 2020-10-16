@@ -29,7 +29,6 @@ source ~/AppData/Local/nvim/init.d/lightline.vim
 
 source ~/AppData/Local/nvim/init.d/yankhi.vim
 
-autocmd FileType python nnoremap <buffer> ,c I# <esc>
 
 
 
