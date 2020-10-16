@@ -12,16 +12,15 @@ language English
 set encoding=utf-8
 set number			 "line number 
 set relativenumber		 "relative line number
-set ruler			 "coordinates
 set showcmd
-set numberwidth=6
+set numberwidth=4
 set linebreak
 set history=300			 "maximum number of cmd records
 set cmdheight=2
 set wildmenu
 set showmatch
 set incsearch
-set textwidth=80
+set textwidth=100
 set noshowmode
 
 " python version
