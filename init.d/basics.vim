@@ -9,7 +9,7 @@ filetype plugin indent on
 
 "UI settings
 language English
-set encoding=utf-8
+set encoding=UTF-8
 set number			 "line number 
 set relativenumber		 "relative line number
 set showcmd
@@ -22,14 +22,17 @@ set showmatch
 set incsearch
 set textwidth=100
 set noshowmode
+set cursorline
 
 " python version
 set pyxversion=3
 "Tab and space
-set tabstop=4
-set softtabstop=4		 "number of spaces per tab when editing
+set noexpandtab
+set tabstop=8
+set softtabstop=2		 "number of spaces per tab when editing
+set shiftwidth=2                 "number of spaces of autoindent"
+
 set autoindent
-set shiftwidth=2
 set backspace=indent,eol,start
 
 "set wildoptions+=pum 

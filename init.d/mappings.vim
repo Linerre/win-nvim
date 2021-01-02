@@ -23,15 +23,10 @@ inoremap <silent> jk <Esc>
 nnoremap <silent> <C-s> :w<CR>
 inoremap <silent> <C-s> :w<CR>
 
-" ALT-hjkl to move btw windows
-nnoremap <A-h> <C-w>h
-nnoremap <A-l> <C-w>l
-nnoremap <A-j> <C-w>j
-nnoremap <A-k> <C-w>k
 
 " SHIFT-jk to move btw buffers
-nnoremap <silent> <S-j> :bnext<CR>
-nnoremap <silent> <S-k> :bprevious<CR>
+nnoremap <silent> <C-j> :bnext<CR>
+nnoremap <silent> <C-k> :bprevious<CR>
 "show the current buffer 
 nnoremap <silent> <A-w> :args<CR>
 "unload current buffer
@@ -68,6 +63,11 @@ augroup END
 augroup jinjia_template
   autocmd!
   autocmd BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
+augroup END
+
+augroup py_file
+  au!
+  au BufNewFile,BufRead,BufWrite "*.py" set softtabstop=4 shiftwidth=4  
 augroup END
 
 " check highlight groups
