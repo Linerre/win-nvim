@@ -65,5 +65,10 @@ augroup latex_file
   autocmd FileType tex nnoremap <Leader>sl I{<Esc>A}<Esc>I
 augroup END
 
+augroup jinjia_template
+  autocmd!
+  autocmd BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
+augroup END
+
 " check highlight groups
-map <F3> :echo synIDattr(synID(line("."),col("."),1),"name")<CR>
+map <F10> :echo synIDattr(synID(line("."),col("."),1),"name")<CR>
