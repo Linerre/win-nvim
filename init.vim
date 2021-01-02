@@ -8,11 +8,15 @@ Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive', {'as': 'fugitive'}
 Plug 'morhetz/gruvbox', {'as': 'gruvbox'}
-"Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-surround'
+Plug 'Yggdroot/indentLine'
+Plug 'ryanoasis/vim-devicons'
+Plug 'preservim/nerdtree'
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
 
@@ -28,6 +32,8 @@ source ~/AppData/Local/nvim/init.d/vimtex.vim
 source ~/AppData/Local/nvim/init.d/lightline.vim
 
 source ~/AppData/Local/nvim/init.d/yankhi.vim
+
+source ~/AppData/Local/nvim/init.d/vimwiki.vim
 
 
 
