@@ -64,3 +64,6 @@ augroup latex_file
   autocmd FileType tex nnoremap <Leader>sw bi{<Esc>ea}<Esc>B
   autocmd FileType tex nnoremap <Leader>sl I{<Esc>A}<Esc>I
 augroup END
+
+" check highlight groups
+map <F3> :echo synIDattr(synID(line("."),col("."),1),"name")<CR>
