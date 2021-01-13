@@ -14,7 +14,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-surround'
 Plug 'Yggdroot/indentLine'
-Plug 'ryanoasis/vim-devicons'
+Plug 'mustache/vim-mustache-handlebars'
+" On windows icons have problems
+""Plug 'ryanoasis/vim-devicons'
 Plug 'preservim/nerdtree'
 Plug 'lepture/vim-jinja'
 Plug 'vimwiki/vimwiki'
