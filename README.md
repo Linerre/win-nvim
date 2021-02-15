@@ -1,7 +1,7 @@
 # $MY(N)VIMRC
 ~This repo is exclusively about my neovim config on Win10.~
 
-I no longer use Windows10 for programming. The END.
+**I no longer use Windows10 for programming. The END.**
 
 ## Why?
 Because on Win10 almost everything from *path* to *filename* is different from
