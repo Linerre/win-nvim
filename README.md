@@ -6,7 +6,7 @@
 ## Why?
 Because on Win10 almost everything from *path* to *filename* is different from
 that on GNU/Linux or macOS. For me, it is quite necessary to modify my nvim
-config on \*nix to cater for my needs on Win10.
+config on Unix-like systems to cater for my needs on Win10.
 
 ## Files/Dirs
 - `init.d` contains modular configs of $MYVIMRC, including mappings,
