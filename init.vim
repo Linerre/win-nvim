@@ -22,6 +22,8 @@ source ~/AppData/Local/nvim/init.d/basics.vim
 
 source ~/AppData/Local/nvim/init.d/mappings.vim
 
+source ~/AppData/Local/nvim/init.d/nvimtree.vim
+
 source ~/AppData/Local/nvim/init.d/vimtex.vim
 
 source ~/AppData/Local/nvim/init.d/lightline.vim
