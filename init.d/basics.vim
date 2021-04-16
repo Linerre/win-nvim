@@ -3,7 +3,7 @@
 " \\\ Essentials ///
 " ===================
 colorschem gruvbox
-set background=dark
+set background=light
 syntax enable
 filetype plugin indent on 
 
